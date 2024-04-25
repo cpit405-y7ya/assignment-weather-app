@@ -1,0 +1,61 @@
+.night {
+    background-image:url('images/night.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.day {
+    background-image:url('images/day.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+}
+
+
+.intro {
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+}
+
+.title,input {
+    display: block;
+    margin: auto;
+}
+
+input {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.503) 2px solid;
+    padding-left: 10px;
+    box-shadow: none;
+}
+
+span{
+    display: block;
+}
+
+.temperature{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.city {
+    font-size: 20px;
+}
+
+.celsius::after {
+    content: '°';
+}
